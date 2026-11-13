@@ -8,7 +8,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist%20Light%20Skin%20Tone.png" width="28" /> `> whoami`
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" /> `> whoami`
 
 ```ts
 const bankkyz = {

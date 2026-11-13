@@ -18,12 +18,12 @@
   <g stroke="#5eead4" stroke-width="2" fill="none" opacity="0.7"><path d="M20 40 V20 H40"/><path d="M1160 20 H1180 V40"/><path d="M20 360 V380 H40"/><path d="M1160 380 H1180 V360"/></g>
 
   <text x="60" y="52" class="mono" font-size="10" letter-spacing="3" fill="#64748b">CONTRIBUTIONS · LAST 12 MONTHS</text>
-  <text x="58" y="112" class="sans" font-size="62" font-weight="900" fill="url(#g)">27</text>
+  <text x="58" y="112" class="sans" font-size="62" font-weight="900" fill="url(#g)">29</text>
   
   <rect x="60" y="140" width="170" height="54" rx="10" fill="#0f1529" stroke="#1e293b"/>
   <rect x="60" y="150" width="3" height="34" rx="1.5" fill="#5eead4"/>
   <text x="76" y="161" class="mono" font-size="9" letter-spacing="2" fill="#64748b">COMMITS</text>
-  <text x="76" y="184" class="sans" font-size="20" font-weight="800" fill="#5eead4">22</text>
+  <text x="76" y="184" class="sans" font-size="20" font-weight="800" fill="#5eead4">23</text>
   
   <rect x="242" y="140" width="170" height="54" rx="10" fill="#0f1529" stroke="#1e293b"/>
   <rect x="242" y="150" width="3" height="34" rx="1.5" fill="#fb7185"/>
@@ -33,7 +33,7 @@
   <rect x="60" y="202" width="170" height="54" rx="10" fill="#0f1529" stroke="#1e293b"/>
   <rect x="60" y="212" width="3" height="34" rx="1.5" fill="#a78bfa"/>
   <text x="76" y="223" class="mono" font-size="9" letter-spacing="2" fill="#64748b">PUBLIC REPOS</text>
-  <text x="76" y="246" class="sans" font-size="20" font-weight="800" fill="#a78bfa">4</text>
+  <text x="76" y="246" class="sans" font-size="20" font-weight="800" fill="#a78bfa">5</text>
   
   <rect x="242" y="202" width="170" height="54" rx="10" fill="#0f1529" stroke="#1e293b"/>
   <rect x="242" y="212" width="3" height="34" rx="1.5" fill="#fbbf24"/>
@@ -50,21 +50,21 @@
   <text x="820" y="36" class="mono" font-size="10" letter-spacing="3" fill="#64748b">TOP LANGUAGES · BY CODE SIZE</text>
   <text x="820" y="68" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">TypeScript</text>
   <rect x="930" y="59" width="160" height="8" rx="4" fill="#1e293b"/>
-  <rect class="grow" x="930" y="59" width="98.2" height="8" rx="4" fill="#3178c6" style="animation-delay:0s"/>
-  <text x="1140" y="68" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">61.4%</text><text x="820" y="102" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">JavaScript</text>
+  <rect class="grow" x="930" y="59" width="94.7" height="8" rx="4" fill="#3178c6" style="animation-delay:0s"/>
+  <text x="1140" y="68" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">59.2%</text><text x="820" y="102" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">JavaScript</text>
   <rect x="930" y="93" width="160" height="8" rx="4" fill="#1e293b"/>
-  <rect class="grow" x="930" y="93" width="58.7" height="8" rx="4" fill="#f7df1e" style="animation-delay:0.12s"/>
-  <text x="1140" y="102" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">36.7%</text><text x="820" y="136" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">CSS</text>
+  <rect class="grow" x="930" y="93" width="62.2" height="8" rx="4" fill="#f7df1e" style="animation-delay:0.12s"/>
+  <text x="1140" y="102" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">38.9%</text><text x="820" y="136" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">CSS</text>
   <rect x="930" y="127" width="160" height="8" rx="4" fill="#1e293b"/>
   <rect class="grow" x="930" y="127" width="4.0" height="8" rx="4" fill="#a78bfa" style="animation-delay:0.24s"/>
-  <text x="1140" y="136" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">1.3%</text><text x="820" y="170" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">HTML</text>
+  <text x="1140" y="136" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">1.2%</text><text x="820" y="170" class="sans" font-size="14" font-weight="700" fill="#e2e8f0">HTML</text>
   <rect x="930" y="161" width="160" height="8" rx="4" fill="#1e293b"/>
   <rect class="grow" x="930" y="161" width="4.0" height="8" rx="4" fill="#e34f26" style="animation-delay:0.36s"/>
   <text x="1140" y="170" text-anchor="end" class="mono" font-size="12" fill="#cbd5e1">0.7%</text>
 
   <text x="60" y="280" class="mono" font-size="10" letter-spacing="3" fill="#64748b">ACTIVITY · 53 WEEKS</text>
   <text x="1140" y="280" text-anchor="end" class="mono" font-size="10" letter-spacing="2" fill="#64748b">PEAK <tspan fill="#fbbf24">13</tspan> / WEEK</text>
-  <path class="fade" d="M60.0 306.2 L80.8 360.0 L101.5 360.0 L122.3 360.0 L143.1 360.0 L163.8 360.0 L184.6 360.0 L205.4 360.0 L226.2 360.0 L246.9 360.0 L267.7 360.0 L288.5 360.0 L309.2 360.0 L330.0 360.0 L350.8 360.0 L371.5 360.0 L392.3 360.0 L413.1 360.0 L433.8 360.0 L454.6 360.0 L475.4 360.0 L496.2 360.0 L516.9 360.0 L537.7 360.0 L558.5 360.0 L579.2 360.0 L600.0 360.0 L620.8 360.0 L641.5 360.0 L662.3 360.0 L683.1 360.0 L703.8 360.0 L724.6 360.0 L745.4 290.0 L766.2 354.6 L786.9 354.6 L807.7 360.0 L828.5 360.0 L849.2 360.0 L870.0 360.0 L890.8 360.0 L911.5 360.0 L932.3 360.0 L953.1 360.0 L973.8 360.0 L994.6 360.0 L1015.4 360.0 L1036.2 360.0 L1056.9 360.0 L1077.7 360.0 L1098.5 360.0 L1119.2 360.0 L1140.0 349.2 L1140 360 L60 360 Z" fill="url(#fill)"/>
-  <path class="draw" d="M60.0 306.2 L80.8 360.0 L101.5 360.0 L122.3 360.0 L143.1 360.0 L163.8 360.0 L184.6 360.0 L205.4 360.0 L226.2 360.0 L246.9 360.0 L267.7 360.0 L288.5 360.0 L309.2 360.0 L330.0 360.0 L350.8 360.0 L371.5 360.0 L392.3 360.0 L413.1 360.0 L433.8 360.0 L454.6 360.0 L475.4 360.0 L496.2 360.0 L516.9 360.0 L537.7 360.0 L558.5 360.0 L579.2 360.0 L600.0 360.0 L620.8 360.0 L641.5 360.0 L662.3 360.0 L683.1 360.0 L703.8 360.0 L724.6 360.0 L745.4 290.0 L766.2 354.6 L786.9 354.6 L807.7 360.0 L828.5 360.0 L849.2 360.0 L870.0 360.0 L890.8 360.0 L911.5 360.0 L932.3 360.0 L953.1 360.0 L973.8 360.0 L994.6 360.0 L1015.4 360.0 L1036.2 360.0 L1056.9 360.0 L1077.7 360.0 L1098.5 360.0 L1119.2 360.0 L1140.0 349.2" fill="none" stroke="url(#g)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path class="fade" d="M60.0 306.2 L80.8 360.0 L101.5 360.0 L122.3 360.0 L143.1 360.0 L163.8 360.0 L184.6 360.0 L205.4 360.0 L226.2 360.0 L246.9 360.0 L267.7 360.0 L288.5 360.0 L309.2 360.0 L330.0 360.0 L350.8 360.0 L371.5 360.0 L392.3 360.0 L413.1 360.0 L433.8 360.0 L454.6 360.0 L475.4 360.0 L496.2 360.0 L516.9 360.0 L537.7 360.0 L558.5 360.0 L579.2 360.0 L600.0 360.0 L620.8 360.0 L641.5 360.0 L662.3 360.0 L683.1 360.0 L703.8 360.0 L724.6 360.0 L745.4 290.0 L766.2 354.6 L786.9 354.6 L807.7 360.0 L828.5 360.0 L849.2 360.0 L870.0 360.0 L890.8 360.0 L911.5 360.0 L932.3 360.0 L953.1 360.0 L973.8 360.0 L994.6 360.0 L1015.4 360.0 L1036.2 360.0 L1056.9 360.0 L1077.7 360.0 L1098.5 360.0 L1119.2 360.0 L1140.0 338.5 L1140 360 L60 360 Z" fill="url(#fill)"/>
+  <path class="draw" d="M60.0 306.2 L80.8 360.0 L101.5 360.0 L122.3 360.0 L143.1 360.0 L163.8 360.0 L184.6 360.0 L205.4 360.0 L226.2 360.0 L246.9 360.0 L267.7 360.0 L288.5 360.0 L309.2 360.0 L330.0 360.0 L350.8 360.0 L371.5 360.0 L392.3 360.0 L413.1 360.0 L433.8 360.0 L454.6 360.0 L475.4 360.0 L496.2 360.0 L516.9 360.0 L537.7 360.0 L558.5 360.0 L579.2 360.0 L600.0 360.0 L620.8 360.0 L641.5 360.0 L662.3 360.0 L683.1 360.0 L703.8 360.0 L724.6 360.0 L745.4 290.0 L766.2 354.6 L786.9 354.6 L807.7 360.0 L828.5 360.0 L849.2 360.0 L870.0 360.0 L890.8 360.0 L911.5 360.0 L932.3 360.0 L953.1 360.0 L973.8 360.0 L994.6 360.0 L1015.4 360.0 L1036.2 360.0 L1056.9 360.0 L1077.7 360.0 L1098.5 360.0 L1119.2 360.0 L1140.0 338.5" fill="none" stroke="url(#g)" stroke-width="2.5" stroke-linejoin="round"/>
   <rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.3"/>
 </svg>

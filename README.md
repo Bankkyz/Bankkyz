@@ -1,30 +1,32 @@
-<div align="center">
+<img src="./assets/banner.svg" width="100%" alt="BANKKYZ — I don't write code. I direct AI to build anything." />
 
-<img src="./assets/banner.svg" width="100%" alt="Bankkyz — building things for the web" />
-
-<a href="https://github.com/Bankkyz"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=900&color=5EEAD4&center=true&vCenter=true&width=620&lines=%24+stack%3A+TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Vercel;%24+shipping+web+apps+that+feel+good+to+use;%24+currently%3A+POS+systems+%2B+online+shops" alt="typing" /></a>
-
-</div>
+<br/>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="28" /> `> whoami`
+### `01 / MANIFESTO`
 
-```ts
-const bankkyz = {
-  role:      "Frontend Developer",
-  base:      "Thailand · UTC+7",
-  building:  ["web apps", "online shops", "POS systems"],
-  loves:     ["clean UI", "motion & visuals", "shipping to Vercel"],
-  status:    "learning something new every week ✨",
-};
-```
+> **The skill isn't typing code anymore. It's knowing what to ask for.**
+>
+> I turn ideas into working products by directing AI —
+> models plan it, agents build it, I steer, test and ship it.
+> No idea is too big, no stack is off-limits.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="28" /> `> sudo install --tech-stack`
+<br/>
 
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: TypeScript, JavaScript, HTML, CSS, React, Next.js, Tailwind, Node.js, Vercel, Git, GitHub, Figma" />
+### `02 / LOADOUT`
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="28" /> `> featured_builds --live`
+<img src="./assets/arsenal.svg" width="100%" alt="AI toolkit — Think: Claude, ChatGPT, Gemini, Perplexity · Build: Claude Code, Cursor, v0, GitHub Copilot · Create: Midjourney, ElevenLabs, HyperFrames, Suno · Ship: Vercel, GitHub, Supabase, Actions" />
+
+<br/>
+
+### `03 / WHAT I SHIP`
+
+<img src="./assets/ship.svg" width="100%" alt="Web apps, shops, systems, motion, voice, automation" />
+
+<br/>
+
+### `04 / PROMPT → PRODUCT`
 
 <table>
   <tr>
@@ -32,18 +34,16 @@ const bankkyz = {
     <td width="50%"><a href="https://naraishop.vercel.app"><img src="./assets/projects/Narai_shop.svg" width="100%" alt="Narai Shop" /></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/Bankkyz/promediafx-portfolio"><img src="./assets/projects/promediafx-portfolio.svg" width="100%" alt="ProMediaFX portfolio" /></a></td>
+    <td width="50%"><a href="https://github.com/Bankkyz/promediafx-portfolio"><img src="./assets/projects/promediafx-portfolio.svg" width="100%" alt="ProMediaFX" /></a></td>
     <td width="50%"><a href="https://github.com/Bankkyz/Love-Memory"><img src="./assets/projects/Love-Memory.svg" width="100%" alt="Love Memory" /></a></td>
   </tr>
 </table>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" /> `> system.scan(performance)`
+<br/>
 
-<img src="./assets/stats.svg" width="100%" alt="GitHub stats" />
+### `05 / MACHINE LOG`
 
-<p align="center"><sub>🛰️ synced daily by GitHub Actions · numbers straight from the GitHub GraphQL API</sub></p>
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="28" /> `> contribution_snake.run()`
+<img src="./assets/stats.svg" width="100%" alt="GitHub activity" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bankkyz/Bankkyz/output/snake-dark.svg" />
@@ -51,15 +51,16 @@ const bankkyz = {
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Bankkyz/Bankkyz/output/snake-dark.svg" width="100%" />
 </picture>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" width="28" /> `> establish --connection`
-
-<div align="center">
-
-<a href="https://github.com/Bankkyz"><img src="https://img.shields.io/badge/GITHUB-FOLLOW_THE_SIGNAL-0b1020?style=for-the-badge&logo=github&logoColor=white&labelColor=a78bfa" /></a>
-<a href="https://posrng.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-ENTER_THE_APP-0b1020?style=for-the-badge&logo=vercel&logoColor=white&labelColor=5eead4" /></a>
+<sub>↻ regenerated daily by GitHub Actions — even this profile runs itself.</sub>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Bankkyz&style=flat-square&color=a78bfa&label=PROFILE+VIEWS" alt="profile views" />
+### `06 / HAVE AN IDEA?`
 
-</div>
+<p>
+<a href="https://github.com/Bankkyz"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-070707?style=for-the-badge&logo=github&logoColor=d4ff3a&labelColor=070707&color=d4ff3a" /></a>
+<a href="https://posrng.vercel.app"><img src="https://img.shields.io/badge/SEE_IT_LIVE-→-070707?style=for-the-badge&logo=vercel&logoColor=070707&labelColor=ff6a1a&color=ff6a1a" /></a>
+<img src="https://komarev.com/ghpvc/?username=Bankkyz&style=for-the-badge&color=d4ff3a&label=VIEWS" alt="profile views" />
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />

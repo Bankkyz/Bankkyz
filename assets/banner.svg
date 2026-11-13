@@ -1,136 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#070a14"/>
-      <stop offset="0.6" stop-color="#0d1226"/>
-      <stop offset="1" stop-color="#170d2b"/>
-    </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#fbbf24"/>
-    </linearGradient>
-    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.55"/>
-      <stop offset="0.5" stop-color="#7c3aed" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity="0.025"/></pattern>
+    <pattern id="noise" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="7" r="0.6" fill="#fff" opacity="0.08"/><circle cx="23" cy="31" r="0.6" fill="#fff" opacity="0.06"/>
+      <circle cx="31" cy="12" r="0.5" fill="#fff" opacity="0.07"/><circle cx="12" cy="25" r="0.5" fill="#fff" opacity="0.05"/>
+    </pattern>
+    <radialGradient id="heat" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff6a1a" stop-opacity="0.45"/><stop offset="1" stop-color="#ff6a1a" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="frame"><rect x="0" y="0" width="1200" height="340" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="440" rx="20"/></clipPath>
+    <path id="circ" d="M 960 210 m -120 0 a 120 120 0 1 1 240 0 a 120 120 0 1 1 -240 0"/>
     <style>
-      .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',monospace}
-      .sans{font-family:'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
-      .tw{animation:tw 3s ease-in-out infinite}
-      .tw2{animation:tw 4.2s ease-in-out infinite .8s}
-      .tw3{animation:tw 2.4s ease-in-out infinite 1.5s}
-      @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
-      .spin{transform-origin:950px 165px;animation:spin 24s linear infinite}
-      .spinr{transform-origin:950px 165px;animation:spin 36s linear infinite reverse}
-      @keyframes spin{to{transform:rotate(360deg)}}
-      .pulse{animation:pulse 2s ease-in-out infinite}
-      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
-      .type{animation:type 3.2s steps(26) .4s both}
-      @keyframes type{from{width:0}to{width:430px}}
-      .caret{animation:pulse 1s steps(1) infinite}
-      .load{animation:load 2.6s cubic-bezier(.6,0,.2,1) .3s both}
-      @keyframes load{from{width:0}to{width:250px}}
-      .grid{animation:grid 2.5s linear infinite}
-      @keyframes grid{from{transform:translateY(0)}to{transform:translateY(22px)}}
-      .rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
-      .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}
-      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-      .orbit{transform-origin:950px 165px;animation:spin 9s linear infinite}
+      .h{font-family:'Arial Black','Segoe UI Black','Helvetica Neue',Impact,sans-serif;font-weight:900}
+      .m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}
+      .rot{transform-origin:960px 210px;animation:rot 22s linear infinite}
+      @keyframes rot{to{transform:rotate(360deg)}}
+      .ticker{animation:tick 18s linear infinite}
+      @keyframes tick{to{transform:translateX(-837px)}}
+      .strike{stroke-dasharray:420;stroke-dashoffset:420;animation:strike .6s cubic-bezier(.7,0,.3,1) 1.4s forwards}
+      @keyframes strike{to{stroke-dashoffset:0}}
+      .reveal{opacity:0;animation:rev .5s ease 2s forwards}
+      @keyframes rev{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      .in{animation:in .8s cubic-bezier(.2,.9,.2,1) both}
+      .i1{animation-delay:.1s}.i2{animation-delay:.25s}.i3{animation-delay:.4s}
+      @keyframes in{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}
+      .blink{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+      .glitch{animation:gl 4s steps(1) infinite}
+      @keyframes gl{0%,92%,100%{transform:none;opacity:0}93%{transform:translate(6px,-2px);opacity:.9}95%{transform:translate(-5px,2px);opacity:.9}97%{transform:translate(3px,0);opacity:.6}}
+      .n{animation:np 2.4s ease-in-out infinite}
+      @keyframes np{0%,100%{r:4}50%{r:7}}
+      .flow{stroke-dasharray:4 10;animation:flow 1.2s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-28}}
     </style>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="#070707"/>
+    <circle cx="960" cy="210" r="260" fill="url(#heat)"/>
+    <rect width="1200" height="440" fill="url(#noise)"/>
 
-    <!-- perspective floor grid -->
-    <g opacity="0.35" stroke="#7c3aed" stroke-width="1">
-      <g class="grid">
-        <line x1="0" y1="252" x2="1200" y2="252"/>
-        <line x1="0" y1="266" x2="1200" y2="266"/>
-        <line x1="0" y1="284" x2="1200" y2="284"/>
-        <line x1="0" y1="306" x2="1200" y2="306"/>
-        <line x1="0" y1="332" x2="1200" y2="332"/>
-        <line x1="0" y1="362" x2="1200" y2="362"/>
-      </g>
-      <path d="M600 240 L-300 340 M600 240 L-60 340 M600 240 L160 340 M600 240 L380 340 M600 240 L600 340 M600 240 L820 340 M600 240 L1040 340 M600 240 L1260 340 M600 240 L1500 340" />
+    <!-- neural core -->
+    <g stroke="#d4ff3a" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+      <path class="flow" d="M870 140 L960 210 L1050 130"/><path class="flow" d="M860 270 L960 210 L1060 290"/>
+      <path class="flow" d="M900 330 L960 210 L1030 80"/><path class="flow" d="M840 200 L960 210 L1080 210"/>
     </g>
-    <rect x="0" y="236" width="1200" height="30" fill="url(#bg)" opacity="0.9"/>
-    <line x1="0" y1="250" x2="1200" y2="250" stroke="url(#bar)" stroke-width="1.5" opacity="0.8"/>
-
-    <!-- stars -->
-    <g fill="#e0e7ff">
-      <circle class="tw" cx="80" cy="40" r="1.4"/><circle class="tw2" cx="210" cy="92" r="1"/>
-      <circle class="tw3" cx="330" cy="30" r="1.2"/><circle class="tw" cx="470" cy="70" r="0.9"/>
-      <circle class="tw2" cx="560" cy="24" r="1.3"/><circle class="tw3" cx="690" cy="58" r="1"/>
-      <circle class="tw" cx="760" cy="210" r="1.1"/><circle class="tw2" cx="1110" cy="48" r="1.4"/>
-      <circle class="tw3" cx="1160" cy="190" r="1"/><circle class="tw" cx="640" cy="200" r="0.8"/>
-      <circle class="tw2" cx="40" cy="200" r="1"/><circle class="tw3" cx="1060" cy="230" r="0.9"/>
+    <g fill="#d4ff3a">
+      <circle class="n" cx="870" cy="140" r="4"/><circle class="n" cx="1050" cy="130" r="4" style="animation-delay:.4s"/>
+      <circle class="n" cx="860" cy="270" r="4" style="animation-delay:.8s"/><circle class="n" cx="1060" cy="290" r="4" style="animation-delay:1.2s"/>
+      <circle class="n" cx="900" cy="330" r="4" style="animation-delay:1.6s"/><circle class="n" cx="1030" cy="80" r="4" style="animation-delay:2s"/>
+      <circle class="n" cx="840" cy="200" r="4" style="animation-delay:.6s"/><circle class="n" cx="1080" cy="210" r="4" style="animation-delay:1s"/>
+    </g>
+    <circle cx="960" cy="210" r="62" fill="#070707" stroke="#ff6a1a" stroke-width="2"/>
+    <text x="960" y="222" text-anchor="middle" class="h" font-size="38" fill="#ff6a1a">AI</text>
+    <g class="rot">
+      <text class="m" font-size="13" letter-spacing="5.6" fill="#f5f5f0">
+        <textPath href="#circ">HUMAN DIRECTS ✦ MACHINE BUILDS ✦ HUMAN DIRECTS ✦ MACHINE BUILDS ✦ </textPath>
+      </text>
     </g>
 
-    <!-- orb / planet -->
-    <circle cx="950" cy="165" r="150" fill="url(#orb)"/>
-    <g class="spinr" fill="none" stroke="#a78bfa" stroke-opacity="0.35">
-      <circle cx="950" cy="165" r="112" stroke-dasharray="2 10"/>
-    </g>
-    <g class="spin" fill="none">
-      <circle cx="950" cy="165" r="88" stroke="url(#ring)" stroke-width="2" stroke-dasharray="120 40 30 40" stroke-linecap="round"/>
-    </g>
-    <circle cx="950" cy="165" r="58" fill="#0d1226" stroke="#5eead4" stroke-opacity="0.5"/>
-    <circle cx="950" cy="165" r="58" fill="url(#orb)"/>
-    <g class="orbit"><circle cx="1038" cy="165" r="5" fill="#fbbf24" filter="url(#glow)"/></g>
-    <text x="950" y="160" text-anchor="middle" class="mono" font-size="22" font-weight="700" fill="#e0e7ff" letter-spacing="2">&lt;/&gt;</text>
-    <text x="950" y="184" text-anchor="middle" class="mono" font-size="9" fill="#94a3b8" letter-spacing="3">BUILD · SHIP</text>
-
-    <!-- corner brackets -->
-    <g stroke="#5eead4" stroke-width="2" fill="none" opacity="0.8">
-      <path d="M20 44 V20 H44"/><path d="M1156 20 H1180 V44"/>
-      <path d="M20 296 V320 H44"/><path d="M1156 320 H1180 V296"/>
-    </g>
-
-    <!-- status chip -->
-    <g class="rise">
-      <rect x="54" y="34" width="112" height="24" rx="12" fill="#5eead4" fill-opacity="0.08" stroke="#5eead4" stroke-opacity="0.5"/>
-      <circle class="pulse" cx="70" cy="46" r="4" fill="#34d399"/>
-      <text x="82" y="50" class="mono" font-size="11" fill="#5eead4" letter-spacing="2">ONLINE</text>
-    </g>
-    <text x="1146" y="50" text-anchor="end" class="mono" font-size="11" fill="#64748b" letter-spacing="2">LOC: THAILAND · UTC+7</text>
+    <!-- top bar -->
+    <text x="48" y="54" class="m" font-size="12" letter-spacing="3" fill="#6b6b6b">PROFILE://BANKKYZ</text>
+    <rect x="236" y="42" width="128" height="18" fill="#d4ff3a"/>
+    <text x="300" y="55" text-anchor="middle" class="m" font-size="11" font-weight="700" letter-spacing="2" fill="#070707">AI-NATIVE</text>
+    <text x="1152" y="54" text-anchor="end" class="m" font-size="12" letter-spacing="3" fill="#6b6b6b">EST. 2025 · TH</text>
 
     <!-- name -->
-    <g class="rise d1">
-      <text x="54" y="138" class="sans" font-size="84" font-weight="900" fill="url(#title)" letter-spacing="4" filter="url(#glow)">BANKKYZ</text>
+    <g class="in i1">
+      <text x="44" y="178" class="h" font-size="124" letter-spacing="-4" fill="#f5f5f0">BANKKYZ</text>
+      <g class="glitch"><text x="44" y="178" class="h" font-size="124" letter-spacing="-4" fill="#ff6a1a" opacity="0.8">BANKKYZ</text></g>
     </g>
 
-    <!-- typed subtitle -->
-    <g class="rise d2">
-      <clipPath id="typeclip"><rect class="type" x="58" y="152" height="34"/></clipPath>
-      <text x="58" y="176" class="mono" font-size="22" font-weight="700" fill="#5eead4" clip-path="url(#typeclip)">// building things for the web</text>
-      <rect class="caret" x="462" y="158" width="11" height="22" fill="#fb7185"/>
+    <!-- manifesto -->
+    <g class="in i2">
+      <text x="48" y="236" class="h" font-size="34" fill="#6b6b6b">I DON'T WRITE CODE.</text>
+      <line class="strike" x1="44" y1="224" x2="456" y2="224" stroke="#ff6a1a" stroke-width="5"/>
     </g>
+    <g class="reveal">
+      <text x="48" y="284" class="h" font-size="34" fill="#d4ff3a">I DIRECT AI TO BUILD ANYTHING.<tspan class="blink" fill="#f5f5f0">_</tspan></text>
+    </g>
+    <text x="48" y="322" class="m in i3" font-size="13" letter-spacing="2" fill="#a3a3a3">apps · shops · systems · video · voice · automation — idea in, product out.</text>
 
-    <text x="58" y="218" class="mono rise d3" font-size="13" fill="#c4b5fd" letter-spacing="3">FRONTEND DEV · WEB APPS · MOTION &amp; VISUALS</text>
-
-    <!-- footer: loader + meta -->
-    <text x="58" y="296" class="mono" font-size="10" fill="#64748b" letter-spacing="2">BOOT</text>
-    <rect x="100" y="289" width="250" height="6" rx="3" fill="#1e293b"/>
-    <rect class="load" x="100" y="289" height="6" rx="3" fill="url(#bar)"/>
-    <text x="362" y="296" class="mono" font-size="10" fill="#fbbf24" letter-spacing="1">100% · READY_</text>
-    <text x="1146" y="296" text-anchor="end" class="mono" font-size="10" fill="#64748b" letter-spacing="2">TYPESCRIPT · JAVASCRIPT · REACT · VERCEL</text>
+    <!-- ticker -->
+    <rect x="0" y="372" width="1200" height="44" fill="#d4ff3a"/>
+    <g class="ticker">
+      <text x="0" y="401" class="h" font-size="20" letter-spacing="1" fill="#070707">PROMPT → PRODUCT ✦ ANY IDEA ✦ ANY STACK ✦ SHIPPED WITH AI ✦ PROMPT → PRODUCT ✦ ANY IDEA ✦ ANY STACK ✦ SHIPPED WITH AI ✦ PROMPT → PRODUCT ✦ ANY IDEA ✦ ANY STACK ✦ SHIPPED WITH AI ✦</text>
+    </g>
+    <rect width="1200" height="440" fill="url(#scan)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.35"/>
 </svg>

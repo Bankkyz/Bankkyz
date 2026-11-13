@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="416" viewBox="0 0 1200 416">
+  <defs><style>
+  .h{font-family:'Arial Black','Segoe UI Black','Helvetica Neue',Impact,sans-serif;font-weight:900}
+  .m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}
+  .row{animation:row .7s cubic-bezier(.2,.9,.2,1) both}
+  @keyframes row{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+  .scan{animation:scan 3s ease-in-out infinite}
+  @keyframes scan{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(1100px);opacity:0}}
+  .pip{animation:pip 1.6s ease-in-out infinite}@keyframes pip{50%{opacity:.2}}
+</style><clipPath id="c"><rect width="1200" height="416" rx="20"/></clipPath></defs>
+  <g clip-path="url(#c)">
+  <rect width="1200" height="416" fill="#070707"/>
+  <text x="40" y="38" class="m" font-size="12" letter-spacing="3" fill="#6b6b6b">OUTPUT // IF YOU CAN DESCRIBE IT, I CAN SHIP IT</text>
+  <g class="row" style="animation-delay:0.00s">
+      <rect x="40" y="60" width="362.6666666666667" height="150" fill="#d4ff3a" stroke="#f5f5f0" stroke-opacity="0"/>
+      <text x="62" y="100" class="m" font-size="14" font-weight="700" fill="#070707">01/</text>
+      <text x="380.6666666666667" y="100" text-anchor="end" class="m" font-size="18" fill="#070707" opacity="0.6">↗</text>
+      <text x="60" y="164" class="h" font-size="36" letter-spacing="-1" fill="#070707">WEB APPS</text>
+      <text x="62" y="190" class="m" font-size="12" fill="#070707" opacity="0.7">full products from one prompt</text>
+    </g><g class="row" style="animation-delay:0.10s">
+      <rect x="418.6666666666667" y="60" width="362.6666666666667" height="150" fill="#111111" stroke="#f5f5f0" stroke-opacity="0.12"/>
+      <text x="440.6666666666667" y="100" class="m" font-size="14" font-weight="700" fill="#ff6a1a">02/</text>
+      <text x="759.3333333333334" y="100" text-anchor="end" class="m" font-size="18" fill="#f5f5f0" opacity="0.6">↗</text>
+      <text x="438.6666666666667" y="164" class="h" font-size="36" letter-spacing="-1" fill="#f5f5f0">SHOPS</text>
+      <text x="440.6666666666667" y="190" class="m" font-size="12" fill="#f5f5f0" opacity="0.7">online stores that sell</text>
+    </g><g class="row" style="animation-delay:0.20s">
+      <rect x="797.3333333333334" y="60" width="362.6666666666667" height="150" fill="#111111" stroke="#f5f5f0" stroke-opacity="0.12"/>
+      <text x="819.3333333333334" y="100" class="m" font-size="14" font-weight="700" fill="#ff6a1a">03/</text>
+      <text x="1138" y="100" text-anchor="end" class="m" font-size="18" fill="#f5f5f0" opacity="0.6">↗</text>
+      <text x="817.3333333333334" y="164" class="h" font-size="36" letter-spacing="-1" fill="#f5f5f0">SYSTEMS</text>
+      <text x="819.3333333333334" y="190" class="m" font-size="12" fill="#f5f5f0" opacity="0.7">POS, dashboards, back-office</text>
+    </g><g class="row" style="animation-delay:0.30s">
+      <rect x="40" y="226" width="362.6666666666667" height="150" fill="#111111" stroke="#f5f5f0" stroke-opacity="0.12"/>
+      <text x="62" y="266" class="m" font-size="14" font-weight="700" fill="#ff6a1a">04/</text>
+      <text x="380.6666666666667" y="266" text-anchor="end" class="m" font-size="18" fill="#f5f5f0" opacity="0.6">↗</text>
+      <text x="60" y="330" class="h" font-size="36" letter-spacing="-1" fill="#f5f5f0">MOTION</text>
+      <text x="62" y="356" class="m" font-size="12" fill="#f5f5f0" opacity="0.7">animated clips &amp; explainers</text>
+    </g><g class="row" style="animation-delay:0.40s">
+      <rect x="418.6666666666667" y="226" width="362.6666666666667" height="150" fill="#d4ff3a" stroke="#f5f5f0" stroke-opacity="0"/>
+      <text x="440.6666666666667" y="266" class="m" font-size="14" font-weight="700" fill="#070707">05/</text>
+      <text x="759.3333333333334" y="266" text-anchor="end" class="m" font-size="18" fill="#070707" opacity="0.6">↗</text>
+      <text x="438.6666666666667" y="330" class="h" font-size="36" letter-spacing="-1" fill="#070707">VOICE</text>
+      <text x="440.6666666666667" y="356" class="m" font-size="12" fill="#070707" opacity="0.7">AI narration &amp; dialogue</text>
+    </g><g class="row" style="animation-delay:0.50s">
+      <rect x="797.3333333333334" y="226" width="362.6666666666667" height="150" fill="#111111" stroke="#f5f5f0" stroke-opacity="0.12"/>
+      <text x="819.3333333333334" y="266" class="m" font-size="14" font-weight="700" fill="#ff6a1a">06/</text>
+      <text x="1138" y="266" text-anchor="end" class="m" font-size="18" fill="#f5f5f0" opacity="0.6">↗</text>
+      <text x="817.3333333333334" y="330" class="h" font-size="36" letter-spacing="-1" fill="#f5f5f0">AUTOMATION</text>
+      <text x="819.3333333333334" y="356" class="m" font-size="12" fill="#f5f5f0" opacity="0.7">bots &amp; workflows that run alone</text>
+    </g>
+  </g>
+</svg>

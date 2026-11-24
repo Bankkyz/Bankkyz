@@ -10,7 +10,7 @@
   <rect width="1200" height="380" fill="#070707"/>
   <text x="40" y="44" class="m" font-size="12" letter-spacing="3" fill="#6b6b6b">MACHINE LOG // 22 CONTRIBUTIONS · 12 MONTHS</text>
   <circle class="pip" cx="1148" cy="40" r="5" fill="#d4ff3a"/>
-  <text x="1134" y="44" text-anchor="end" class="m" font-size="12" letter-spacing="3" fill="#d4ff3a">SYNC 2026-11-23</text>
+  <text x="1134" y="44" text-anchor="end" class="m" font-size="12" letter-spacing="3" fill="#d4ff3a">SYNC 2026-11-24</text>
   <rect x="40" y="70" width="268" height="130" fill="#d4ff3a"/>
   <text x="60" y="98" class="m" font-size="12" font-weight="700" letter-spacing="3" fill="#070707">SHIPPED</text>
   <text x="58" y="166" class="h" font-size="58" letter-spacing="-2" fill="#070707">5</text>
